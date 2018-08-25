@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "Subdivision.h"
 
+
 @interface SubdivisionTableViewCell : UITableViewCell
 @property (nonatomic, strong) Subdivision *subdivision;
 @end

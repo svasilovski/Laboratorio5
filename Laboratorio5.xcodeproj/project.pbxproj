@@ -20,8 +20,8 @@
 		7E2282192131D7F2002D7BAD /* Country.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2282182131D7F2002D7BAD /* Country.m */; };
 		7E22821C2131D80B002D7BAD /* Subdivision.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E22821B2131D80B002D7BAD /* Subdivision.m */; };
 		7E22821F2131DD1F002D7BAD /* CountryService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E22821E2131DD1F002D7BAD /* CountryService.m */; };
-		7E2282262131DFC1002D7BAD /* SubdivisionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2282252131DFC1002D7BAD /* SubdivisionTableViewCell.m */; };
-		7E2282292131E9DB002D7BAD /* CountriesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2282282131E9DB002D7BAD /* CountriesTableViewController.m */; };
+		7E22822C2131FDF3002D7BAD /* SubdivisionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E22822B2131FDF3002D7BAD /* SubdivisionTableViewCell.m */; };
+		7E22822F2131FE3E002D7BAD /* CountriesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E22822E2131FE3E002D7BAD /* CountriesTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,10 +66,10 @@
 		7E22821B2131D80B002D7BAD /* Subdivision.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subdivision.m; sourceTree = "<group>"; };
 		7E22821D2131DD1F002D7BAD /* CountryService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountryService.h; sourceTree = "<group>"; };
 		7E22821E2131DD1F002D7BAD /* CountryService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountryService.m; sourceTree = "<group>"; };
-		7E2282242131DFC1002D7BAD /* SubdivisionTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubdivisionTableViewCell.h; sourceTree = "<group>"; };
-		7E2282252131DFC1002D7BAD /* SubdivisionTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubdivisionTableViewCell.m; sourceTree = "<group>"; };
-		7E2282272131E9DB002D7BAD /* CountriesTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountriesTableViewController.h; sourceTree = "<group>"; };
-		7E2282282131E9DB002D7BAD /* CountriesTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountriesTableViewController.m; sourceTree = "<group>"; };
+		7E22822A2131FDF3002D7BAD /* SubdivisionTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubdivisionTableViewCell.h; sourceTree = "<group>"; };
+		7E22822B2131FDF3002D7BAD /* SubdivisionTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubdivisionTableViewCell.m; sourceTree = "<group>"; };
+		7E22822D2131FE3E002D7BAD /* CountriesTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountriesTableViewController.h; sourceTree = "<group>"; };
+		7E22822E2131FE3E002D7BAD /* CountriesTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountriesTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,10 +195,10 @@
 		7E2282202131DECC002D7BAD /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				7E2282242131DFC1002D7BAD /* SubdivisionTableViewCell.h */,
-				7E2282252131DFC1002D7BAD /* SubdivisionTableViewCell.m */,
-				7E2282272131E9DB002D7BAD /* CountriesTableViewController.h */,
-				7E2282282131E9DB002D7BAD /* CountriesTableViewController.m */,
+				7E22822D2131FE3E002D7BAD /* CountriesTableViewController.h */,
+				7E22822E2131FE3E002D7BAD /* CountriesTableViewController.m */,
+				7E22822A2131FDF3002D7BAD /* SubdivisionTableViewCell.h */,
+				7E22822B2131FDF3002D7BAD /* SubdivisionTableViewCell.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -337,12 +337,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E2282292131E9DB002D7BAD /* CountriesTableViewController.m in Sources */,
+				7E22822F2131FE3E002D7BAD /* CountriesTableViewController.m in Sources */,
 				7E22821F2131DD1F002D7BAD /* CountryService.m in Sources */,
 				7E22821C2131D80B002D7BAD /* Subdivision.m in Sources */,
 				7E2281D82131B785002D7BAD /* ViewController.m in Sources */,
-				7E2282262131DFC1002D7BAD /* SubdivisionTableViewCell.m in Sources */,
 				7E2281DE2131B785002D7BAD /* Laboratorio5.xcdatamodeld in Sources */,
+				7E22822C2131FDF3002D7BAD /* SubdivisionTableViewCell.m in Sources */,
 				7E2281E62131B786002D7BAD /* main.m in Sources */,
 				7E2282192131D7F2002D7BAD /* Country.m in Sources */,
 				7E2281D52131B785002D7BAD /* AppDelegate.m in Sources */,

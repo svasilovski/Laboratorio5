@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CountriesTableViewController : UICollectionViewController
+@interface CountriesTableViewController : UITableViewController
 
 @end
