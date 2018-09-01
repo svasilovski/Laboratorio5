@@ -22,6 +22,10 @@
 		7E22821F2131DD1F002D7BAD /* CountryService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E22821E2131DD1F002D7BAD /* CountryService.m */; };
 		7E22822C2131FDF3002D7BAD /* SubdivisionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E22822B2131FDF3002D7BAD /* SubdivisionTableViewCell.m */; };
 		7E22822F2131FE3E002D7BAD /* CountriesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E22822E2131FE3E002D7BAD /* CountriesTableViewController.m */; };
+		7E22823621321424002D7BAD /* SubdivisionDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E22823521321424002D7BAD /* SubdivisionDetail.m */; };
+		7E22823921321727002D7BAD /* CountryServiceDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E22823821321727002D7BAD /* CountryServiceDetail.m */; };
+		7E22823C2132198B002D7BAD /* CountryDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E22823B2132198B002D7BAD /* CountryDetail.m */; };
+		7E22824121321C36002D7BAD /* Paises.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E22824021321C36002D7BAD /* Paises.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +74,13 @@
 		7E22822B2131FDF3002D7BAD /* SubdivisionTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubdivisionTableViewCell.m; sourceTree = "<group>"; };
 		7E22822D2131FE3E002D7BAD /* CountriesTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountriesTableViewController.h; sourceTree = "<group>"; };
 		7E22822E2131FE3E002D7BAD /* CountriesTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountriesTableViewController.m; sourceTree = "<group>"; };
+		7E22823421321424002D7BAD /* SubdivisionDetail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubdivisionDetail.h; sourceTree = "<group>"; };
+		7E22823521321424002D7BAD /* SubdivisionDetail.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubdivisionDetail.m; sourceTree = "<group>"; };
+		7E22823721321727002D7BAD /* CountryServiceDetail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountryServiceDetail.h; sourceTree = "<group>"; };
+		7E22823821321727002D7BAD /* CountryServiceDetail.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountryServiceDetail.m; sourceTree = "<group>"; };
+		7E22823A2132198B002D7BAD /* CountryDetail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountryDetail.h; sourceTree = "<group>"; };
+		7E22823B2132198B002D7BAD /* CountryDetail.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountryDetail.m; sourceTree = "<group>"; };
+		7E22824021321C36002D7BAD /* Paises.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Paises.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +131,7 @@
 		7E2281D22131B785002D7BAD /* Laboratorio5 */ = {
 			isa = PBXGroup;
 			children = (
+				7E22823D21321BDE002D7BAD /* ListadoPaisesDetalle */,
 				7E2282082131BECE002D7BAD /* ListadoPaises */,
 				7E2281D32131B785002D7BAD /* AppDelegate.h */,
 				7E2281D42131B785002D7BAD /* AppDelegate.m */,
@@ -201,6 +213,52 @@
 				7E22822B2131FDF3002D7BAD /* SubdivisionTableViewCell.m */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		7E22823D21321BDE002D7BAD /* ListadoPaisesDetalle */ = {
+			isa = PBXGroup;
+			children = (
+				7E22823E21321BF9002D7BAD /* Controller */,
+				7E22823F21321C0E002D7BAD /* ViewController */,
+				7E22824221321C41002D7BAD /* Service */,
+				7E22824321321C4F002D7BAD /* Model */,
+			);
+			path = ListadoPaisesDetalle;
+			sourceTree = "<group>";
+		};
+		7E22823E21321BF9002D7BAD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7E22823F21321C0E002D7BAD /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7E22824021321C36002D7BAD /* Paises.storyboard */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		7E22824221321C41002D7BAD /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				7E22823721321727002D7BAD /* CountryServiceDetail.h */,
+				7E22823821321727002D7BAD /* CountryServiceDetail.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		7E22824321321C4F002D7BAD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7E22823421321424002D7BAD /* SubdivisionDetail.h */,
+				7E22823521321424002D7BAD /* SubdivisionDetail.m */,
+				7E22823A2132198B002D7BAD /* CountryDetail.h */,
+				7E22823B2132198B002D7BAD /* CountryDetail.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,6 +368,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E22820A2131BEF7002D7BAD /* PaisesStoryboard.storyboard in Resources */,
+				7E22824121321C36002D7BAD /* Paises.storyboard in Resources */,
 				7E2281E32131B786002D7BAD /* LaunchScreen.storyboard in Resources */,
 				7E2281E02131B786002D7BAD /* Assets.xcassets in Resources */,
 				7E2281DB2131B785002D7BAD /* Main.storyboard in Resources */,
@@ -337,9 +396,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E22823621321424002D7BAD /* SubdivisionDetail.m in Sources */,
+				7E22823C2132198B002D7BAD /* CountryDetail.m in Sources */,
 				7E22822F2131FE3E002D7BAD /* CountriesTableViewController.m in Sources */,
 				7E22821F2131DD1F002D7BAD /* CountryService.m in Sources */,
 				7E22821C2131D80B002D7BAD /* Subdivision.m in Sources */,
+				7E22823921321727002D7BAD /* CountryServiceDetail.m in Sources */,
 				7E2281D82131B785002D7BAD /* ViewController.m in Sources */,
 				7E2281DE2131B785002D7BAD /* Laboratorio5.xcdatamodeld in Sources */,
 				7E22822C2131FDF3002D7BAD /* SubdivisionTableViewCell.m in Sources */,
