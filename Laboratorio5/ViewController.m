@@ -54,8 +54,8 @@
     }
     
     if(self.errPassword.isHidden || self.errUser.isHidden){
-        UIStoryboard *st = [UIStoryboard storyboardWithName:@"PaisesStoryboard" bundle:nil];
-        UIViewController *vc =[st instantiateViewControllerWithIdentifier:@"paisesStroyboard"];
+        UIStoryboard *st = [UIStoryboard storyboardWithName:@"Paises" bundle:nil];
+        UIViewController *vc =[st instantiateViewControllerWithIdentifier:@"paisesInitialViewController"];
         [self presentViewController:vc animated:true completion:nil];
     }
 }
