@@ -23,6 +23,7 @@
 		7E22822F2131FE3E002D7BAD /* CountriesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E22822E2131FE3E002D7BAD /* CountriesTableViewController.m */; };
 		7E9AC560213ADB85000E1D68 /* Paises.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E9AC55F213ADB85000E1D68 /* Paises.storyboard */; };
 		7E9AC563213AE165000E1D68 /* SubdivisionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9AC562213AE165000E1D68 /* SubdivisionDetailViewController.m */; };
+		7E9AC566213AEF61000E1D68 /* Subdivision.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9AC565213AEF61000E1D68 /* Subdivision.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,8 +63,6 @@
 		7E2281FC2131B786002D7BAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E2282172131D7F2002D7BAD /* Country.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Country.h; sourceTree = "<group>"; };
 		7E2282182131D7F2002D7BAD /* Country.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Country.m; sourceTree = "<group>"; };
-		7E22821A2131D80B002D7BAD /* Subdivision.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subdivision.h; sourceTree = "<group>"; };
-		7E22821B2131D80B002D7BAD /* Subdivision.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subdivision.m; sourceTree = "<group>"; };
 		7E22821D2131DD1F002D7BAD /* CountryService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountryService.h; sourceTree = "<group>"; };
 		7E22821E2131DD1F002D7BAD /* CountryService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountryService.m; sourceTree = "<group>"; };
 		7E22822A2131FDF3002D7BAD /* SubdivisionTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubdivisionTableViewCell.h; sourceTree = "<group>"; };
@@ -73,6 +72,8 @@
 		7E9AC55F213ADB85000E1D68 /* Paises.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Paises.storyboard; sourceTree = "<group>"; };
 		7E9AC561213AE165000E1D68 /* SubdivisionDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubdivisionDetailViewController.h; sourceTree = "<group>"; };
 		7E9AC562213AE165000E1D68 /* SubdivisionDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubdivisionDetailViewController.m; sourceTree = "<group>"; };
+		7E9AC564213AEF61000E1D68 /* Subdivision.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subdivision.h; sourceTree = "<group>"; };
+		7E9AC565213AEF61000E1D68 /* Subdivision.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subdivision.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,8 +173,8 @@
 			children = (
 				7E2282172131D7F2002D7BAD /* Country.h */,
 				7E2282182131D7F2002D7BAD /* Country.m */,
-				7E22821A2131D80B002D7BAD /* Subdivision.h */,
-				7E22821B2131D80B002D7BAD /* Subdivision.m */,
+				7E9AC564213AEF61000E1D68 /* Subdivision.h */,
+				7E9AC565213AEF61000E1D68 /* Subdivision.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -344,10 +345,10 @@
 			files = (
 				7E22822F2131FE3E002D7BAD /* CountriesTableViewController.m in Sources */,
 				7E22821F2131DD1F002D7BAD /* CountryService.m in Sources */,
-				7E22821C2131D80B002D7BAD /* Subdivision.m in Sources */,
 				7E2281D82131B785002D7BAD /* ViewController.m in Sources */,
 				7E2281DE2131B785002D7BAD /* Laboratorio5.xcdatamodeld in Sources */,
 				7E22822C2131FDF3002D7BAD /* SubdivisionTableViewCell.m in Sources */,
+				7E9AC566213AEF61000E1D68 /* Subdivision.m in Sources */,
 				7E2281E62131B786002D7BAD /* main.m in Sources */,
 				7E2282192131D7F2002D7BAD /* Country.m in Sources */,
 				7E2281D52131B785002D7BAD /* AppDelegate.m in Sources */,
